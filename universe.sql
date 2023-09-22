@@ -461,13 +461,13 @@ INSERT INTO public.planet VALUES (3, 'Venus', 23, 2, false, 2, 3, 'Venus is the 
 INSERT INTO public.planet VALUES (4, 'Mercury', 42, 5, true, 3, 4, 'Mercury is the first planet from the Sun and the smallest in the Solar System.', true);
 INSERT INTO public.planet VALUES (5, 'Mars', 5, 3, false, 1, 8, 'Mars is the fourth planet and the furthest terrestrial planet from the Sun.', true);
 INSERT INTO public.planet VALUES (6, 'Jupiter', 645, 10, true, 5, 2, 'Jupiter is the fifth planet from the Sun and the largest in the Solar System.', false);
-INSERT INTO public.planet VALUES (7, 'Uranus', 278, 56, true, 4, 7, 'Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant.', true);
+INSERT INTO public.planet VALUES (7, 'Uranus', 278, 56, true, 4, 6, 'Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant.', true);
 INSERT INTO public.planet VALUES (8, 'Saturn', 50, 11, false, 2, 4, 'Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter.', false);
 INSERT INTO public.planet VALUES (9, 'Pluto', 1, 6, true, 6, 3, 'Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune.', true);
 INSERT INTO public.planet VALUES (10, 'Neptune', 6, 58, false, 3, 4, 'Neptune is the eighth planet from the Sun and the farthest IAU-recognized planet in the Solar System.', false);
 INSERT INTO public.planet VALUES (11, 'Ceres', 57, 47, true, 4, 5, 'Ceres minor-planet designation 1 Ceres, is a dwarf planet in the asteroid belt between the orbits of Mars and Jupiter.', true);
 INSERT INTO public.planet VALUES (12, 'Eris', 3, 40, false, 2, 2, 'Eris (minor-planet designation 136199 Eris) is the most massive and second-largest known dwarf planet in the Solar System.', false);
-INSERT INTO public.planet VALUES (13, 'Haumea', 4, 22, true, 5, 7, 'Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune\'s orbit.', true);
+INSERT INTO public.planet VALUES (13, 'Haumea', 4, 22, true, 5, 8, 'Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptunes orbit.', true);
 
 
 --
@@ -476,14 +476,14 @@ INSERT INTO public.planet VALUES (13, 'Haumea', 4, 22, true, 5, 7, 'Haumea (mino
 
 INSERT INTO public.planet_types VALUES (1, 'Gas giant', 'A gas giant is a large planet mostly composed of helium and/or hydrogen.');
 INSERT INTO public.planet_types VALUES (2, 'Neptunian', 'Neptunian exoplanets are similar in size to Neptune or Uranus in our solar system.');
-INSERT INTO public.planet_types VALUES (3, 'Terrestrial', 'The planets Mercury, Venus, Earth, and Mars, are called terrestrial because they have a compact, rocky surface like Earth\'s terra firma.');
+INSERT INTO public.planet_types VALUES (3, 'Terrestrial', 'The planets Mercury, Venus, Earth, and Mars, are called terrestrial because they have a compact, rocky surface like Earths terra firma.');
 
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (2, 'Sirius', 250, 7, ' the brightest star in the night sky', 2);
+INSERT INTO public.star VALUES (2, 'Sirius', 250, 6, ' the brightest star in the night sky', 2);
 INSERT INTO public.star VALUES (3, 'Beletegueuse', 10, 5, 'Betelgeuse is a red supergiant star of spectral type M1-2 and one of the largest visible to the naked eye. It is usually the tenth-brightest star in the night sky and, after Rigel, the second-brightest in the constellation of Orion.', 2);
 INSERT INTO public.star VALUES (4, 'Polaris', 70, 1, 'Polaris is a star in the northern circumpolar constellation of Ursa Minor. It is designated α Ursae Minoris (Latinized to Alpha Ursae Minoris) and is commonly called the North Star or Pole Star.', 3);
 INSERT INTO public.star VALUES (5, 'Rigel', 8, 5, 'Rigel is a blue supergiant star in the constellation of Orion.', 2);
